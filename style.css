@@ -1,0 +1,101 @@
+ @import url(https://fonts.googleapis.com/css?family=Spectral:400,700);
+
+
+ body{
+ 	width: 100%;
+ 	margin: 0;
+ 	font-family: "Spectral";
+ 	position: absolute;
+ 	font-size: 1em;
+ }
+
+ #wrap{
+ 	width: 100vw;
+ 	height: 100vh;
+ 	overflow: auto;
+ }
+
+ header{
+ 	border: 2px dashed #7f7f7f;
+ 	width: 90vw;
+ 	height: auto;
+ 	margin-left: 5vw;
+ 	margin-top: 10px;
+ 	text-align: center;
+ }
+
+ #header-info{
+ 	font-size: 2.3em;
+ 	padding-top: 25px;
+ 	padding-left: 25px;
+ }
+
+ #header-p{
+ 	font-size: 1.2em;
+ 	padding-left: 25px;
+ }
+
+ nav{
+ 	position: relative;
+ }
+
+ nav ul {
+ 	list-style: none;
+ 	text-align: left;
+ 	padding-right: 25px;
+ 	padding-bottom: 10px;
+ }
+
+ nav ul li{
+ 	display: inline;
+ 	padding-right:30px; 
+
+ }
+
+  nav ul li a{
+ 	text-decoration: none;
+ 	color: (#00007f);
+ 	font-size: 2em;
+ 	font-weight: 300;
+ 	
+ }
+
+ .left-column{
+ 	width: 65vw;
+ 	height: auto;
+ 	margin-left: 5vw;
+ 	margin-top: 10px;
+ 	color: #7f7f7f;
+ 	border: 1px solid #7f7f7f;
+ 	padding: 2.5vw;
+ 	position: fixed;   
+ }
+/*Image size is not being controlled by below*/
+/* #Shima{
+ 	width: 45vw;
+ 	height: 45vh;
+ 	position: relative;
+
+}*/
+ .right-column{
+ 	width: 25vw;
+ 	height: auto;
+ 	margin-right: 5vw;
+ 	margin-top: 10px;
+ 	color: #7f7f7f;
+ 	border: 1px solid #7f7f7f;
+ 	padding: 2.5vw;
+ 	position: fixed;   
+}
+ #about-shima{
+ 	font-size: 1.75em;
+ 	padding-left: 25px;
+ }
+/* #shima-description{
+ 	font-size: 1.2em;
+ 	padding-left: 25px;
+ }*/
+
+
+
+
