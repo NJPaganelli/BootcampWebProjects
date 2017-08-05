@@ -1,12 +1,10 @@
  @import url(https://fonts.googleapis.com/css?family=Spectral:400,700);
 
-
  body{
  	width: 100%;
  	margin: 0;
  	font-family: "Spectral";
- 	position: absolute;
- 	font-size: 1em;
+	font-size: 1em;
  }
 
  #wrap{
@@ -25,77 +23,135 @@
  }
 
  #header-info{
- 	font-size: 2.3em;
- 	padding-top: 25px;
- 	padding-left: 25px;
+ 	font-size: 1.7em;
+ 	padding-top: 35px;
+ 	padding-left: 35px;
+ 	text-align: center;
  }
 
- #header-p{
- 	font-size: 1.2em;
- 	padding-left: 25px;
+ #header-about{
+ 	font-size: 1em;
+ 	padding-left: 35px;
  }
 
  nav{
+ 	/*Check body postion*/
  	position: relative;
  }
 
- nav ul {
+ nav ul{
  	list-style: none;
- 	text-align: left;
- 	padding-right: 25px;
+ 	text-align: center;
+ 	padding-right: 35px;
  	padding-bottom: 10px;
  }
 
  nav ul li{
  	display: inline;
- 	padding-right:30px; 
-
+ 	padding-right: 35px;
  }
 
-  nav ul li a{
+ nav ul li a{
  	text-decoration: none;
- 	color: (#00007f);
- 	font-size: 2em;
- 	font-weight: 300;
- 	
+ 	color: #7f7f7f;
+ 	font-size: 1em;
+ 	/*How does this number work?*/
+ 	font-weight: 150;
  }
 
- .left-column{
- 	width: 65vw;
- 	height: auto;
- 	margin-left: 5vw;
- 	margin-top: 10px;
- 	color: #7f7f7f;
- 	border: 1px solid #7f7f7f;
- 	padding: 2.5vw;
- 	position: fixed;   
- }
-/*Image size is not being controlled by below*/
-/* #Shima{
+ .Images{
  	width: 45vw;
- 	height: 45vh;
- 	position: relative;
+ 	height: 25vh;
+ /*	margin-left: 5px;*/
+/* 	margin-top: 10px;*/
+/* 	color: #7f7f7f;
+ 	border: 1px solid #7f7f7f;*/
+/* 	padding: 25px;*/
 
-}*/
- .right-column{
- 	width: 25vw;
- 	height: auto;
- 	margin-right: 5vw;
- 	margin-top: 10px;
- 	color: #7f7f7f;
- 	border: 1px solid #7f7f7f;
- 	padding: 2.5vw;
- 	position: fixed;   
-}
- #about-shima{
- 	font-size: 1.75em;
- 	padding-left: 25px;
+ 	/*Is this right?*/
+
  }
-/* #shima-description{
- 	font-size: 1.2em;
- 	padding-left: 25px;
- }*/
 
+ .Labels{
+ 	width: 45vw;
+ 	height: 25vh;
+/* 	margin-right: 5px;*/
+/* 	margin-top: 10px;*/
+ 	
+/* 	border: 1px solid #7f7f7f;*/
+/* 	padding: 25px;*/
+ 	/*Do I need this a second time? Does it need to be opposite of the first one?*/
+ }
 
+ #Shima{
+ 	position: absolute;
+ 	background-color: red;
+ 	float: left;
+ 	z-index: 2
+ }
 
+ #Shima: hover{
+ 	transform: translate(45vw);
+ 	transition-property: width;
+ 	transition-duration: 3s;
+ 	transition-timing-function: linear;
+ 	transition-delay: 1s;
 
+}
+
+/* #Zemrude
+ #Millinery*/
+
+ #Shima-Title{
+ 	position: relative;
+ 	float: right;
+ 	background-color: orange;
+ 	z-index: 1;
+}
+
+ #Shima-Desc{
+ 	position: relative;
+ 	float: left;
+ 	background-color: yellow;
+ 	z-index: 1;
+}
+
+/* #Zemrude-Title
+ #Zemrude-Desc
+ #Millinery-Title
+ #Millinery-Desc*/
+
+/* Below Needs to be connected to Projects in List Items*/
+
+.Images2{
+	width: 25vw;
+ 	height: 50vh;
+}
+
+.Pop-Up{
+	width: 25vw;
+ 	height: 50vh;
+}
+
+#Shima2{
+	position: relative;
+ 	background-color: blue;
+ 	float: left;
+ }
+
+#Shima3{
+	position: relative;
+ 	background-color: purple;
+ 	float: right;
+}
+
+#Shima-Detail{
+ 	position: relative;
+ 	float: left;
+ 	background-color: pink;
+
+}
+
+footer{
+
+}
