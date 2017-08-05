@@ -35,7 +35,6 @@
  }
 
  nav{
- 	/*Check body postion*/
  	position: relative;
  }
 
@@ -55,32 +54,26 @@
  	text-decoration: none;
  	color: #7f7f7f;
  	font-size: 1em;
- 	/*How does this number work?*/
+ 	/*How does this number below work?*/
  	font-weight: 150;
  }
 
  .Images{
- 	width: 45vw;
+ 	width: 50vw;
  	height: 25vh;
- /*	margin-left: 5px;*/
-/* 	margin-top: 10px;*/
-/* 	color: #7f7f7f;
- 	border: 1px solid #7f7f7f;*/
-/* 	padding: 25px;*/
-
- 	/*Is this right?*/
+	margin-right: 5px;
+ 	margin-top: 5px;
+ 	padding: 5px;
 
  }
 
  .Labels{
  	width: 45vw;
  	height: 25vh;
-/* 	margin-right: 5px;*/
-/* 	margin-top: 10px;*/
- 	
+ 	margin-right: 5px;
+ 	margin-top: 5px;
 /* 	border: 1px solid #7f7f7f;*/
-/* 	padding: 25px;*/
- 	/*Do I need this a second time? Does it need to be opposite of the first one?*/
+ 	padding: 5px;
  }
 
  #Shima{
@@ -109,11 +102,32 @@
  	z-index: 1;
 }
 
+#Shima-Title-Text{
+	text-align: center;
+	text-decoration-color: #ffffff;
+	font-family: "Spectral";
+	font-size: 1em;
+	padding: 22px;
+	margin-left: 8px;
+	margin-top: 22px;
+
+}
+
  #Shima-Desc{
  	position: relative;
  	float: left;
  	background-color: yellow;
  	z-index: 1;
+}
+ #Shima-Desc-Text{
+ 	text-align: center;
+	text-decoration-color: #ffffff;
+	font-family: "Spectral";
+	font-size: 1em;
+	padding: 22px;
+	margin-left: 8px;
+	margin-top: 22px;
+
 }
 
 /* #Zemrude-Title
@@ -121,7 +135,7 @@
  #Millinery-Title
  #Millinery-Desc*/
 
-/* Below Needs to be connected to Projects in List Items*/
+/* Below Needs to be connected to Shima Items above*/
 
 .Images2{
 	width: 25vw;
