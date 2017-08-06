@@ -11,11 +11,13 @@
  	width: 100vw;
  	height: 100vh;
  	overflow: auto;
+ 	position: absolute;
+
  }
 
  header{
  	border: 2px dashed #7f7f7f;
- 	width: 90vw;
+ 	width: 95vw;
  	height: auto;
  	margin-left: 5vw;
  	margin-top: 10px;
@@ -54,51 +56,322 @@
  	text-decoration: none;
  	color: #7f7f7f;
  	font-size: 1em;
- 	/*How does this number below work?*/
  	font-weight: 150;
  }
 
  .Images{
- 	width: 50vw;
+ 	width: 59vw;
  	height: 25vh;
-	margin-right: 5px;
+/*	margin-right: 5px;
  	margin-top: 5px;
- 	padding: 5px;
-
- }
-
- .Labels{
- 	width: 45vw;
+ 	margin-bottom: 5px;
+ 	padding: 5px;*/
+ 	position: relative;
+}
+ .Images img{
+ 	width: 59vw;
  	height: 25vh;
- 	margin-right: 5px;
- 	margin-top: 5px;
-/* 	border: 1px solid #7f7f7f;*/
- 	padding: 5px;
- }
-
- #Shima{
- 	position: absolute;
- 	background-color: red;
- 	float: left;
- 	z-index: 2
- }
-
- #Shima: hover{
- 	transform: translate(45vw);
- 	transition-property: width;
- 	transition-duration: 3s;
- 	transition-timing-function: linear;
- 	transition-delay: 1s;
 
 }
 
-/* #Zemrude
- #Millinery*/
+ .Images2{
+ 	width: 59vw;
+ 	height: 75vh;
+	/*margin-right: 5px;*/
+ 	margin-top: 25vh;
+/* 	margin-bottom: 5px;
+ 	padding: 5px;*/
+ 	position: relative;
+}
+ .Images2 img{
+ 	width: 59vw;
+ 	height: 75vh;
+
+}
+
+
+.Images3a{
+ 	width: 59vw;
+ 	height: 25vh;
+/*	margin-right: 5px;*/
+ 	margin-top: 125vh;
+/* 	margin-bottom: 5px;
+ 	padding: 5px;
+*/ 	position: relative;
+}
+ .Images3a img{
+ 	width: 59vw;
+ 	height: 25vh;
+}
+
+ .Images4{
+ 	width: 59vw;
+ 	height: 75vh;
+/*	margin-right: 5px;*/
+ 	margin-top: 150vh;
+/* 	margin-bottom: 5px;
+ 	padding: 5px;*/
+ 	position: relative;
+}
+ .Images4 img{
+ 	width: 59vw;
+ 	height: 75vh;
+
+}
+ .Images3{
+ 	width: 59vw;
+ 	height: 25vh;
+/*	margin-right: 5px;*/
+ 	margin-top: 100vh;
+/* 	margin-bottom: 5px;
+ 	padding: 5px;
+*/ 	position: relative;
+}
+ .Images3 img{
+ 	width: 59vw;
+ 	height: 25vh;
+
+}
+ .Images5{
+ 	width: 59vw;
+ 	height: 25vh;
+/*	margin-right: 5px;*/
+ 	margin-top: 225vh;
+/* 	margin-bottom: 5px;
+ 	padding: 5px;*/
+ 	position: relative;
+}
+ .Images5 img{
+ 	width: 59vw;
+ 	height: 25vh;
+
+}
+.Images6a{
+ 	width: 59vw;
+ 	height: 25vh;
+/*	margin-right: 5px;*/
+ 	margin-top: 325vh;
+/* 	margin-bottom: 5px;
+ 	padding: 5px;*/
+ 	position: relative;
+}
+ .Images6a img{
+ 	width: 59vw;
+ 	height: 25vh;
+}
+ .Images6{
+ 	width: 59vw;
+ 	height: 75vh;
+/*	margin-right: 5px;*/
+ 	margin-top: 250vh;
+/* 	margin-bottom: 5px;
+ 	padding: 5px;*/
+ 	position: relative;
+}
+ .Images6 img{
+ 	width: 59vw;
+ 	height: 75vh;
+
+} 
+
+
+ .Labels{
+ 	width: 49.25vw;
+ 	height: 25vh;
+/* 	margin-right: 5px;*/
+/* 	margin-top: 5px;*/
+/* 	margin-bottom: 5px;*/
+/* 	padding: 5px;*/
+ 	position: relative;
+
+}
+
+.Labels img{
+	width: 49.25vw;
+ 	height: 25vh;
+}
+
+ .Labels2{
+ 	width: 49.25vw;
+ 	height: 75vh;
+/* 	margin-right: 5px;*/
+/* 	margin-top: 13px;*/
+/* 	margin-bottom: 5px;*/
+/* 	padding: 5px;*/
+ 	position: relative;
+
+}
+
+.Labels2 img{
+	width: 49.25vw;
+ 	height: 75vh;
+}
+
+.Labels3a{
+ 	width: 49.25vw;
+ 	height: 25vh;
+/* 	margin-right: 5px;
+ 	margin-top: 5px;
+ 	margin-bottom: 5px;
+ 	padding: 5px;*/
+ 	position: relative;
+
+}
+
+.Labels3a img{
+	width: 49.25vw;
+ 	height: 25vh;
+}
+
+ .Labels4{
+ 	width: 49.25vw;
+ 	height: 75vh;
+/* 	margin-right: 5px;
+ 	margin-top: 5px;
+ 	margin-bottom: 5px;
+ 	padding: 5px;*/
+ 	position: relative;
+
+}
+
+.Labels4 img{
+	width: 49.25vw;
+ 	height: 75vh;
+}
+.Labels3{
+ 	width: 49.25vw;
+ 	height: 25vh;
+/* 	margin-right: 5px;
+ 	margin-top: 5px;
+ 	margin-bottom: 5px;
+ 	padding: 5px;*/
+ 	position: relative;
+
+}
+
+.Labels3 img{
+	width: 49.25vw;
+ 	height: 25vh;
+}
+
+ .Labels5{
+ 	width: 49.25vw;
+ 	height: 25vh;
+/* 	margin-right: 5px;
+ 	margin-top: 5px;
+ 	margin-bottom: 5px;
+ 	padding: 5px;*/
+ 	position: relative;
+
+}
+
+.Labels5 img{
+	width: 49.25vw;
+ 	height: 25vh;
+}
+.Labels6a{
+ 	width: 49.25vw;
+ 	height: 25vh;
+/* 	margin-right: 5px;
+ 	margin-top: 5px;
+ 	margin-bottom: 5px;
+ 	padding: 5px;*/
+ 	position: relative;
+
+}
+
+.Labels6a img{
+	width: 49.25vw;
+ 	height: 25vh;
+}
+ .Labels6{
+ 	width: 49.25vw;
+ 	height: 75vh;
+/* 	margin-right: 5px;
+ 	margin-top: 5px;
+ 	margin-bottom: 5px;
+ 	padding: 5px;*/
+ 	position: relative;
+
+}
+
+.Labels6 img{
+	width: 49.25vw;
+ 	height: 75vh;
+}
+
+
+
+/*.Images2{
+	width: 25vw;
+ 	height: 50vh;
+ 	margin-right: 5px;
+ 	margin-top: 30vh;
+ 	margin-bottom: 5px;
+ 	padding: 5px;
+}
+
+.Images2 img{
+	width: 45vw;
+ 	height: 25vh;
+}
+
+.Pop-Up1{
+	width: 48vw;
+ 	height: 50vh;
+ 	margin-right: 5px;
+ 	margin-top: 30vh;
+ 	margin-bottom: 5px;
+ 	padding: 5px;
+}
+
+.Pop-Up1 img{
+	width: 45vw;
+ 	height: 25vh;
+}
+*/
+
+#Shima{
+ 	position: absolute;
+ 	background-color: white;
+ 	z-index: 2;
+ 	transition: all 2s;
+ 	right: 40vw;
+ }
+
+ #Shima:hover{
+ 	right: 0px;
+
+}
+#Shima1{
+ 	position: absolute;
+ 	background-color: white;
+ 	z-index: 2;
+ 	transition: all 2s;
+ 	right: 40vw;
+ }
+
+ #Shima1:hover{
+ 	right: 0px;
+
+}
+#Shima2{
+ 	position: absolute;
+ 	background-color: white;
+ 	z-index: 2;
+ 	transition: all 2s;
+ 	right: 40vw;
+ }
+
+ #Shima2:hover{
+ 	right: 0px;
+
+}
 
  #Shima-Title{
  	position: relative;
  	float: right;
- 	background-color: orange;
+ 	background-color: white;
  	z-index: 1;
 }
 
@@ -107,16 +380,16 @@
 	text-decoration-color: #ffffff;
 	font-family: "Spectral";
 	font-size: 1em;
-	padding: 22px;
+/*	padding: 22px;
 	margin-left: 8px;
-	margin-top: 22px;
+	margin-top: 22px;*/
 
 }
 
  #Shima-Desc{
  	position: relative;
  	float: left;
- 	background-color: yellow;
+ 	background-color: white;
  	z-index: 1;
 }
  #Shima-Desc-Text{
@@ -124,48 +397,40 @@
 	text-decoration-color: #ffffff;
 	font-family: "Spectral";
 	font-size: 1em;
-	padding: 22px;
+/*	padding: 22px;
 	margin-left: 8px;
-	margin-top: 22px;
-
+	margin-top: 22px;*/
 }
 
-/* #Zemrude-Title
- #Zemrude-Desc
- #Millinery-Title
- #Millinery-Desc*/
-
-/* Below Needs to be connected to Shima Items above*/
-
-.Images2{
-	width: 25vw;
- 	height: 50vh;
-}
-
-.Pop-Up{
-	width: 25vw;
- 	height: 50vh;
-}
-
-#Shima2{
-	position: relative;
+/*#Shima2{
+	position: absolute;
  	background-color: blue;
- 	float: left;
+ 	z-index: 2;
+ 	transition: all 2s;
+ 	right: 25vw;
+
+ }
+
+ #Shima2:hover{
+ 	right: 0px;
  }
 
 #Shima3{
-	position: relative;
+	position: absolute;
  	background-color: purple;
- 	float: right;
+ 	z-index: 2;
+ 	transition: all 2s;
+ 	left: 25vw;
 }
 
-#Shima-Detail{
+#Shima3:hover{
+ 	left: 0px;
+ }
+
+#Shima-Detail1{
  	position: relative;
- 	float: left;
+ 	margin-left: 25vw;
+ 	margin-right: 25vw;
  	background-color: pink;
-
-}
-
-footer{
-
-}
+ 	z-index: 1;
+}*/
