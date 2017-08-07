@@ -17,9 +17,10 @@
 
  header{
  	border: 2px dashed #7f7f7f;
- 	width: 95vw;
+ 	width: 85vw;
  	height: auto;
- 	margin-left: 5vw;
+ 	margin-left: 7.5vw;
+ 	margin-right: 7.5vw;
  	margin-top: 10px;
  	text-align: center;
  }
@@ -27,7 +28,7 @@
  #header-info{
  	font-size: 1.7em;
  	padding-top: 35px;
- 	padding-left: 35px;
+/* 	padding-left: 35px;*/
  	text-align: center;
  }
 
@@ -380,12 +381,23 @@
 	text-decoration-color: #ffffff;
 	font-family: "Spectral";
 	font-size: 1em;
+	margin-top: 10vh;
 /*	padding: 22px;
-	margin-left: 8px;
-	margin-top: 22px;*/
+	margin-left: 8px;*/
+/*	margin-top: 22px;*/
 
 }
+#Shima-Title-Text2{
+	text-align: center;
+	text-decoration-color: #ffffff;
+	font-family: "Spectral";
+	font-size: 1em;
+/*	margin-top: 10vh;*/
+/*	padding: 22px;*/
+	margin-left: 175px;
+/*	margin-top: 22px;*/
 
+}
  #Shima-Desc{
  	position: relative;
  	float: left;
@@ -397,11 +409,22 @@
 	text-decoration-color: #ffffff;
 	font-family: "Spectral";
 	font-size: 1em;
+/*	margin-top: 10vh;*/
 /*	padding: 22px;
 	margin-left: 8px;
 	margin-top: 22px;*/
 }
-
+}
+ #Shima-Desc-Text2{
+ 	text-align: center;
+	text-decoration-color: #ffffff;
+	font-family: "Spectral";
+	font-size: 1em;
+/*	margin-top: 10vh;*/
+/*	padding: 22px;
+	margin-left: 8px;
+	margin-top: 22px;*/
+}
 /*#Shima2{
 	position: absolute;
  	background-color: blue;
