@@ -1,40 +1,51 @@
- @import url(https://fonts.googleapis.com/css?family=Spectral:400,700);
+/*<!-- Home Page -->*/
+@import url(https://fonts.googleapis.com/css?family=Spectral:400,700);
+/*@import'reset.css';*/
 
  body{
  	width: 100%;
  	margin: 0;
- 	font-family: "Spectral";
+ 	font-family: 'Spectral';
 	font-size: 1em;
+
  }
 
  #wrap{
  	width: 100vw;
  	height: 100vh;
- 	overflow: auto;
+/* 	overflow: auto;*/
  	position: absolute;
-
  }
 
  header{
  	border: 2px dashed #7f7f7f;
  	width: 85vw;
  	height: auto;
+ 	margin-top: 2.5vh;
  	margin-left: 7.5vw;
- 	margin-right: 7.5vw;
- 	margin-top: 10px;
+ 	margin-bottom: 2.5vh;
  	text-align: center;
+ 	padding-top: 1.5vw;
+ 	font-family: 'Spectral';
  }
 
  #header-info{
- 	font-size: 1.7em;
- 	padding-top: 35px;
-/* 	padding-left: 35px;*/
- 	text-align: center;
+ 	font-family: 'Spectral';
+ 	text-decoration: none;
+ 	font-size: 5em;
+ }
+ #header-about{/*The best dressed people today and in the next 10-20 years will be those who frame their wardrobes around their individuality, avoiding the main cultural movements in clothing.*/
+ 	font-size: 1.5em;
+ 	padding-left: 2.5vw;
+ 	font-family: 'Spectral';
  }
 
- #header-about{
- 	font-size: 1em;
- 	padding-left: 35px;
+ #sub-heading{/*a Twenty First Century dressmaker service*/
+  	font-family: 'Spectral';
+	font-style: italic;
+	font-size: 1em;
+	/*top: 5vh; */
+	/*padding: 2vw;*/
  }
 
  nav{
@@ -43,417 +54,453 @@
 
  nav ul{
  	list-style: none;
- 	text-align: center;
- 	padding-right: 35px;
- 	padding-bottom: 10px;
+ 	display: inline-block;
  }
-
- nav ul li{
- 	display: inline;
- 	padding-right: 35px;
- }
-
+ li {
+    display: inline-block;
+    
+}
  nav ul li a{
+ 	display: inline-flex;
  	text-decoration: none;
  	color: #7f7f7f;
  	font-size: 1em;
+ 	padding: 2.5vw;
+ 	margin-right: 1vw;
  	font-weight: 150;
+ 	font-family: 'Spectral';
+ 	text-align: center;
  }
 
- .Images{
- 	width: 59vw;
- 	height: 25vh;
-/*	margin-right: 5px;
- 	margin-top: 5px;
- 	margin-bottom: 5px;
- 	padding: 5px;*/
- 	position: relative;
-}
- .Images img{
- 	width: 59vw;
- 	height: 25vh;
-
-}
-
- .Images2{
- 	width: 59vw;
- 	height: 75vh;
-	/*margin-right: 5px;*/
- 	margin-top: 25vh;
-/* 	margin-bottom: 5px;
- 	padding: 5px;*/
- 	position: relative;
-}
- .Images2 img{
- 	width: 59vw;
- 	height: 75vh;
-
-}
 
 
-.Images3a{
- 	width: 59vw;
- 	height: 25vh;
-/*	margin-right: 5px;*/
- 	margin-top: 125vh;
-/* 	margin-bottom: 5px;
- 	padding: 5px;
-*/ 	position: relative;
-}
- .Images3a img{
- 	width: 59vw;
- 	height: 25vh;
-}
+/*Top Bar
 
- .Images4{
- 	width: 59vw;
- 	height: 75vh;
-/*	margin-right: 5px;*/
- 	margin-top: 150vh;
-/* 	margin-bottom: 5px;
- 	padding: 5px;*/
- 	position: relative;
-}
- .Images4 img{
- 	width: 59vw;
- 	height: 75vh;
+/*Left Top*/
 
-}
- .Images3{
- 	width: 59vw;
- 	height: 25vh;
-/*	margin-right: 5px;*/
- 	margin-top: 100vh;
-/* 	margin-bottom: 5px;
- 	padding: 5px;
-*/ 	position: relative;
-}
- .Images3 img{
- 	width: 59vw;
- 	height: 25vh;
-
-}
- .Images5{
- 	width: 59vw;
- 	height: 25vh;
-/*	margin-right: 5px;*/
- 	margin-top: 225vh;
-/* 	margin-bottom: 5px;
- 	padding: 5px;*/
- 	position: relative;
-}
- .Images5 img{
- 	width: 59vw;
- 	height: 25vh;
-
-}
-.Images6a{
- 	width: 59vw;
- 	height: 25vh;
-/*	margin-right: 5px;*/
- 	margin-top: 325vh;
-/* 	margin-bottom: 5px;
- 	padding: 5px;*/
- 	position: relative;
-}
- .Images6a img{
- 	width: 59vw;
- 	height: 25vh;
-}
- .Images6{
- 	width: 59vw;
- 	height: 75vh;
-/*	margin-right: 5px;*/
- 	margin-top: 250vh;
-/* 	margin-bottom: 5px;
- 	padding: 5px;*/
- 	position: relative;
-}
- .Images6 img{
- 	width: 59vw;
- 	height: 75vh;
-
-} 
-
-
- .Labels{
- 	width: 49.25vw;
- 	height: 25vh;
-/* 	margin-right: 5px;*/
-/* 	margin-top: 5px;*/
-/* 	margin-bottom: 5px;*/
-/* 	padding: 5px;*/
- 	position: relative;
-
-}
-
-.Labels img{
-	width: 49.25vw;
- 	height: 25vh;
-}
-
- .Labels2{
- 	width: 49.25vw;
- 	height: 75vh;
-/* 	margin-right: 5px;*/
-/* 	margin-top: 13px;*/
-/* 	margin-bottom: 5px;*/
-/* 	padding: 5px;*/
- 	position: relative;
-
-}
-
-.Labels2 img{
-	width: 49.25vw;
- 	height: 75vh;
-}
-
-.Labels3a{
- 	width: 49.25vw;
- 	height: 25vh;
-/* 	margin-right: 5px;
- 	margin-top: 5px;
- 	margin-bottom: 5px;
- 	padding: 5px;*/
- 	position: relative;
-
-}
-
-.Labels3a img{
-	width: 49.25vw;
- 	height: 25vh;
-}
-
- .Labels4{
- 	width: 49.25vw;
- 	height: 75vh;
-/* 	margin-right: 5px;
- 	margin-top: 5px;
- 	margin-bottom: 5px;
- 	padding: 5px;*/
- 	position: relative;
-
-}
-
-.Labels4 img{
-	width: 49.25vw;
- 	height: 75vh;
-}
-.Labels3{
- 	width: 49.25vw;
- 	height: 25vh;
-/* 	margin-right: 5px;
- 	margin-top: 5px;
- 	margin-bottom: 5px;
- 	padding: 5px;*/
- 	position: relative;
-
-}
-
-.Labels3 img{
-	width: 49.25vw;
- 	height: 25vh;
-}
-
- .Labels5{
- 	width: 49.25vw;
- 	height: 25vh;
-/* 	margin-right: 5px;
- 	margin-top: 5px;
- 	margin-bottom: 5px;
- 	padding: 5px;*/
- 	position: relative;
-
-}
-
-.Labels5 img{
-	width: 49.25vw;
- 	height: 25vh;
-}
-.Labels6a{
- 	width: 49.25vw;
- 	height: 25vh;
-/* 	margin-right: 5px;
- 	margin-top: 5px;
- 	margin-bottom: 5px;
- 	padding: 5px;*/
- 	position: relative;
-
-}
-
-.Labels6a img{
-	width: 49.25vw;
- 	height: 25vh;
-}
- .Labels6{
- 	width: 49.25vw;
- 	height: 75vh;
-/* 	margin-right: 5px;
- 	margin-top: 5px;
- 	margin-bottom: 5px;
- 	padding: 5px;*/
- 	position: relative;
-
-}
-
-.Labels6 img{
-	width: 49.25vw;
- 	height: 75vh;
-}
-
-
-
-/*.Images2{
+#home-title-tailor{
+ 	position: absolute;
+ 	background-color: orange;
+ 	width: 50vw;
+ 	height: 50vh;
+ 	z-index: 15;
+ }
+.home-title-tailor:hover{
 	width: 25vw;
- 	height: 50vh;
- 	margin-right: 5px;
- 	margin-top: 30vh;
- 	margin-bottom: 5px;
- 	padding: 5px;
+	transition: all 3s; 
 }
 
-.Images2 img{
-	width: 45vw;
- 	height: 25vh;
-}
+/*All Title Text*/
 
-.Pop-Up1{
-	width: 48vw;
- 	height: 50vh;
- 	margin-right: 5px;
- 	margin-top: 30vh;
- 	margin-bottom: 5px;
- 	padding: 5px;
-}
-
-.Pop-Up1 img{
-	width: 45vw;
- 	height: 25vh;
-}
-*/
-
-#Shima{
- 	position: absolute;
- 	background-color: white;
- 	z-index: 2;
- 	transition: all 2s;
- 	right: 40vw;
- }
-
- #Shima:hover{
- 	right: 0px;
-
-}
-#Shima1{
- 	position: absolute;
- 	background-color: white;
- 	z-index: 2;
- 	transition: all 2s;
- 	right: 40vw;
- }
-
- #Shima1:hover{
- 	right: 0px;
-
-}
-#Shima2{
- 	position: absolute;
- 	background-color: white;
- 	z-index: 2;
- 	transition: all 2s;
- 	right: 40vw;
- }
-
- #Shima2:hover{
- 	right: 0px;
-
-}
-
- #Shima-Title{
- 	position: relative;
- 	float: right;
- 	background-color: white;
- 	z-index: 1;
-}
-
-#Shima-Title-Text{
-	text-align: center;
-	text-decoration-color: #ffffff;
-	font-family: "Spectral";
-	font-size: 1em;
-	margin-top: 10vh;
-/*	padding: 22px;
-	margin-left: 8px;*/
-/*	margin-top: 22px;*/
-
-}
-#Shima-Title-Text2{
-	text-align: center;
-	text-decoration-color: #ffffff;
-	font-family: "Spectral";
-	font-size: 1em;
-/*	margin-top: 10vh;*/
-/*	padding: 22px;*/
-	margin-left: 175px;
-/*	margin-top: 22px;*/
-
-}
- #Shima-Desc{
- 	position: relative;
- 	float: left;
- 	background-color: white;
- 	z-index: 1;
-}
- #Shima-Desc-Text{
+#title-tailor-text{
+	border: .25vw dashed #7f7f7f;
+ 	width: 45vw;
+ 	margin-right: 2.5vw;
+ 	margin-left: 2.5vw;
+ 	margin-top: 20vh;
  	text-align: center;
-	text-decoration-color: #ffffff;
-	font-family: "Spectral";
-	font-size: 1em;
-/*	margin-top: 10vh;*/
-/*	padding: 22px;
-	margin-left: 8px;
-	margin-top: 22px;*/
+ 	font-family: 'Spectral';
+ 	font-size: 1.5em;
+
 }
+.title-tailor-text:hover{
+	width: 20vw;
+	transition: all 3s; 
 }
- #Shima-Desc-Text2{
- 	text-align: center;
-	text-decoration-color: #ffffff;
-	font-family: "Spectral";
-	font-size: 1em;
-/*	margin-top: 10vh;*/
-/*	padding: 22px;
-	margin-left: 8px;
-	margin-top: 22px;*/
-}
-/*#Shima2{
+
+/*Right Top*/
+
+#home-description-tailor{
+	float: right;
+	background-color: green;
 	position: absolute;
+	z-index: 20;
+	left: 50vw;
+	width: 50vw;
+	height: 50vh;
+}
+#home-description-tailor:hover{
+	left: 75vw;
+	right: 25vw;
+	transition: all 3s;
+}
+/*All Description Text*/
+
+#description-tailor-text{
+	border: .25vw dashed #7f7f7f;
+ 	width: 45vw;
+ 	margin-right: 2.5vw;
+ 	margin-left: 2.5vw;
+ 	margin-top: 20.75vh;
+ 	text-align: center;
+ 	font-family: 'Spectral';
+ 	font-size: 1.1em;
+
+}
+
+#description-tailor-text:hover{
+	width: 20vw;
+	transition: all 3s; 
+}
+
+/*Left Bottom*/
+
+#home-left-reveal-img-tailor{
  	background-color: blue;
- 	z-index: 2;
- 	transition: all 2s;
- 	right: 25vw;
-
- }
-
- #Shima2:hover{
- 	right: 0px;
- }
-
-#Shima3{
-	position: absolute;
- 	background-color: purple;
- 	z-index: 2;
- 	transition: all 2s;
  	left: 25vw;
+	float: left;
+ 	z-index: 5;
+ 	width: 25vw;
+	height: 50vh;
+	position: relative;
+ }
+
+ /*All Left Buttons*/
+
+#home-left-button-tailor{
+	border: .125vw dashed #7f7f7f;
+ 	width: 15vw;
+ 	height: auto;
+ 	margin-top: 30vh;
+ 	margin-bottom: 5vh;
+ 	margin-left: 5vw;
+ 	text-align: center;
+ 	padding: .25vw;
+ 	font-style: italic;
+ 	opacity: .85;
+ 	font-family: 'Spectral';
 }
 
-#Shima3:hover{
- 	left: 0px;
+/*Right Bottom*/
+
+#home-right-reveal-img-tailor{
+	background-color: purple;
+	right: 25vw;
+	float: right;
+	z-index: 10;
+	width: 25vw;
+	height: 50vh;
+	position: relative;
+}
+
+/*All Right Buttons*/
+
+#home-right-button-tailor{
+	border: .125vw dashed #7f7f7f;
+ 	width: 15vw;
+ 	height: auto;
+ 	margin-top: 30vh;
+ 	margin-bottom: 5vh;
+ 	margin-left: 5vw;
+ 	text-align: center;
+ 	padding: .25vw;
+ 	font-style: italic;
+ 	font-family: 'Spectral';
+ 	opacity: .85;
+}
+/*Middle Bar*/
+
+#home-custom-middle{
+	position: relative;
+	top: 50vh;
+}
+/*Left Middle Top*/
+
+#home-title-custom{
+ 	position: absolute;
+ 	background-color: red;
+ 	width: 50vw;
+ 	height: 50vh;
+ 	/*top: 87vh;*/
+ 	z-index: 15;
  }
 
-#Shima-Detail1{
- 	position: relative;
- 	margin-left: 25vw;
- 	margin-right: 25vw;
+#home-title-custom:hover{
+	/*right: 75vw;*/
+	width: 25vw;
+	transition: all 3s; 
+}
+
+/*Right Middle Top*/
+
+#home-description-custom{
+	float: right;
+	background-color: yellow;
+	position: absolute;
+	z-index: 20;
+	left: 50vw;
+	width: 50vw;
+	height: 50vh;
+	/*top: 50vh;*/
+}
+
+#home-description-custom:hover{
+	left: 75vw;
+	right: 25vw;
+	transition: all 3s;
+}
+
+/*Left Middle Bottom*/
+
+#home-left-reveal-img-custom{
  	background-color: pink;
- 	z-index: 1;
-}*/
+ 	left: 25vw;
+	float: left;
+ 	z-index: 5;
+ 	width: 25vw;
+	height: 50vh;
+	position: relative;
+	/*top: 50vh;*/
+ }
+
+ /*Right Middle Bottom*/
+
+#home-right-reveal-img-custom{
+	background-color: black;
+	right: 25vw;
+	float: right;
+	z-index: 10;
+	width: 25vw;
+	height: 50vh;
+	position: relative;
+	/*top: 50vh;*/
+}
+
+
+
+
+/*Bottom Bar*/
+
+#home-bespoke-bottom{
+	position: relative;
+	top: 100vh;
+}
+
+/*Left Bottom Top*/
+
+#home-title-bespoke{
+ 	position: absolute;
+ 	background-color: green;
+ 	width: 50vw;
+ 	height: 50vh;
+ 	z-index: 15;
+ 	/*top: 137vh;*/
+ }
+#home-title-bespoke:hover{
+	/*right: 75vw;*/
+	width: 25vw;
+	transition: all 3s; 
+}
+
+/*Right Bottom Top*/
+
+#home-description-bespoke{
+	float: right;
+	background-color: magenta;
+	position: absolute;
+	z-index: 20;
+	left: 50vw;
+	width: 50vw;
+	height: 50vh;
+	/*top: 137vh;*/
+}
+
+#home-description-bespoke:hover{
+	left: 75vw;
+	right: 25vw;
+	transition: all 3s;
+}
+
+/*Left Bottom Bottom*/
+
+#home-left-reveal-img-bespoke{
+ 	background-color: indigo;
+ 	left: 25vw;
+	float: left;
+ 	z-index: 5;
+ 	width: 25vw;
+	height: 50vh;
+	position: relative;
+	bottom: 50vh;
+ }
+
+/*Right Bottom Bottom*/
+
+#home-right-reveal-img-bespoke{
+	background-color: gold;
+	right: 25vw;
+	float: right;
+	z-index: 10;
+	width: 25vw;
+	height: 50vh;
+	position: relative;
+	bottom: 50vh;
+}
+
+/*<!-- Customer Profile -->*/
+
+/*Top Bar*/
+
+/*Right Top*/
+
+#profile-form-right-top{
+	position: relative;
+	float: right;
+	background-color: red;
+	width: 60vw;
+	height: 50vh;
+}
+.profile-text{
+	text-align: center;
+	margin-top: 2.5vh;
+	margin-left: 5vw;
+}
+
+/*Left Top*/
+
+#profile-form-left-top{
+	position: absolute;
+	background-color: orange;
+	float: left;
+	width: 40vw;
+	height: 50vh;
+
+}
+/*Middle Bar*/
+#profile-middle{
+	position: relative;
+	top: 50vh;
+}
+
+/*Left Middle*/
+
+#profile-form-left-middle{
+	position: absolute;
+	background-color: green;
+	float: left;
+	width: 60vw;
+	height: 50vh;
+	/*top: 87vh;*/
+}
+
+/*Right Middle*/
+
+#profile-form-right-middle{
+	position: absolute;
+	float: right;
+	background-color: yellow;
+	width: 40vw;
+	left: 60vw;
+	height: 50vh;
+	/*top: 50vh*/
+
+}
+
+/*Profile Button*/
+
+#profile-upload-button{
+	border: .125vw dashed #7f7f7f;
+ 	width: 15vw;
+ 	height: auto;
+ 	/*margin-top: 50vh;*/
+ 	/*margin-bottom: 5vh;*/
+ 	margin-left: 42.5vw;
+ 	text-align: center;
+ 	padding: .25vw;
+ 	font-style: italic;
+ 	opacity: .85;
+}
+
+
+/*<!-- Measurement Form/Upload -->*/
+
+
+
+#scanner-viewport{
+	position: absolute;
+	background-color: red;
+	width: 60vw;
+	height: 80vh;
+	left: 20vw;
+	right: 20vw;
+}
+
+#detail-measurement-scan-demo{
+/*	position: relative;*/
+	background-color: orange;
+	float: left;
+	width: 20vw;
+	height: 80vh;
+	right: 80vw;
+}
+
+#detail-measurement-demo{
+	position: relative;
+	background-color: yellow;
+	width: 20vw;
+	height: 80vh;
+	left: 80vw;
+}
+
+#measurement-form{
+	width: 85vw
+	padding-left: 20vw;
+	height: auto;
+	background-color: green;
+	column-count: 2;
+}
+/*<!-- Tailor Made - Choose Collection -->*/
+/*<!-- Tailor Made - Choose a Style -->
+*//*<!-- Tailor Made - Fit Viewport - Check Fit -->*/
+/*<!-- Shopping Cart - Tailor MAde & Custom -->*/
+/*<!-- Custom - Choose Blank Style or Choose Single Component -->*/
+
+#shop-custom-tops{
+	position: relative;
+	float: left;
+	background-color: red;
+	width: 60vw;
+	height: 50vh;
+}
+
+#custom-tops-carousel{
+	position: absolute;
+	background-color: orange;
+	float: right;
+	width: 40vw;
+	height: 50vh;
+
+}
+/*Middle Bar*/
+
+
+#profile-form-left-middle{
+	position: absolute;
+	background-color: green;
+	float: left;
+	width: 60vw;
+	height: 50vh;
+	top: 87vh;
+}
+
+#profile-form-right-middle{
+	position: relative;
+	float: right;
+	background-color: yellow;
+	width: 40vw;
+	left: 60vw;
+	height: 50vh;
+	top: 50vh
+
+}
+/*<!-- Custom - Choose Single Component - Choose Compatable Components Limited -->*/
+/*<!-- Custom - Fit Viewport - Choose Color/Pattern -->*/
+/*<!-- Custom - Fit  - Check Fit -->*/
+/*<!-- Bespoke - View Base Styles/Select Components -->*/
+/*<!-- Bespoke - View Compatable Components Unlimited -->*/
+/*<!-- Bespoke - View Colors & Patterns -->*/
+/*<!-- Bespoke - Fit Viewport - Edit Base Style - Allow to Skip: Send to "Custom - Fit Viewport - Choose Color/Pattern" -->*/
+/*<!-- Bespoke - Fit Viewport - Place Color & Pattern -->*/
+/*<!-- Bespoke - Fit Viewport - Check Fit -->*/
+/*<!-- Bespoke - Additional Comments Form -->*/
+/*<!-- Bespoke - Shopping Cart -->*/
